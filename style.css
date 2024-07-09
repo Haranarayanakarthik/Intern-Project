@@ -1,0 +1,165 @@
+#ima
+{
+    height: 820px;
+    background-image: url(./Img/1000_F_552928102_GwDAGdh9gzNjGfFhwO88gkEQmD6Dr8Zb.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section 
+{
+    padding: 2rem;
+    text-align: center;
+}
+nav
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #ffa07a;
+    color: black;
+    border: black solid 2px;
+}
+a
+{
+    text-decoration: none;
+    text-emphasis: none;
+}
+#ima h1
+{
+    text-align: center;
+    color: #ffffff;
+    font-size: 4em;
+    font-weight: 700;
+}
+#ima h2
+{
+    color: #ffffff;
+    text-align: center;
+}
+body 
+{
+  margin : 0px;
+}
+
+#k
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    background-color: rgba(0, 0, 0, 0.829);
+    padding: 0%;
+    color: aliceblue; 
+}
+#k > div
+{
+    width: 50%;
+}
+.a
+{
+    font-size: larger;
+    font-family: Algerian;
+
+}
+.a > h2
+{
+    text-align: center;
+}
+.u
+{
+    font-size: larger;
+    margin-left: 0.3px;
+    font-family: Algerian;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: flex;
+}
+
+#u2 {
+    margin-left: 3rem;
+}
+
+.u >h2
+{
+    text-align: center;
+}
+.l >h2
+{
+    text-align: center;
+}
+.l
+{
+    font-size: larger;
+    font-family: Algerian;
+
+}
+#ko
+{
+    font-size: larger;
+    font-family: Algerian;
+}
+
+#projects 
+{
+    background-color: #9932cc;
+    color: ghostwhite;
+  }
+  
+  #projects h2 
+  {
+    color: gold;
+    font-family: Algerian;
+  }
+  
+  .projects-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .project 
+  {
+    background-color: #6a0dad;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    width: calc(50% - 2rem);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .project h3 
+  {
+    color: gold;
+  }
+  
+  #achievements {
+    background-color: #ffa07a;
+  }
+  
+  #achievements h2 {
+    color: blue;
+    font-family: Algerian;
+  }
+  
+  #achievements ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #achievements li 
+  {
+    margin: 1rem 0;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+  }
+footer {
+    background-color: aqua;
+    font-size: larger;
+    text-align: center;
+    padding: 1rem;
+  }
+  
