@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <script src="./script.js"></script>
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
@@ -163,34 +163,47 @@
                 Hyderabad.</li>
         </ul>
     </section>    
-    <section id="contact" class="section">
-        <h2 style="color: black;">Contact Me</h2>
-        <div class="container">
-          <form>
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-        
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-        
-        
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-        
-            <input type="submit" value="Submit">
-          </form>
-        </div>  
-    </section>  
+    <section id="contact">
+      <h2>Contact Me!</h2>
+      <br>
+      <br>
+      <div>
+      <form action="#">
+          <div class="input-box">
+              <div class="field">
+                  <input type="text" placeholder="Full Name" id="name"
+                  class="item" autocomplete="off">
+                  </div>
+              <div class="field">
+                  <input type="text" placeholder="Email Address" id="email"
+                  class="item" autocomplete="off">
+              </div>
+              <div class="field">
+                  <input type="text" placeholder="Phone Number" id="phone"
+                  class="item" autocomplete="off">
+              </div>
+              <div class="field">
+                  <input type="text" placeholder="Subject" id="subject"
+                  class="item" autocomplete="off">
+                </div>
+          </div>
+          <div class="textarea-field field">
+              <textarea name="" id="message" cols="30" rows="10" placeholder="Your Message" class="item" autocomplete="off"></textarea>
+            </div>
+          <button type="submit">Send Message</button>
+      </form>
+      </div>
+    </section>
     <hr>    
     <footer>
-        <div>
-        <p style="font-size: 1.25rem;">&copy;K.H.N.Karthik</p>
+      <div>
+          <p style="font-size: 1.25rem;"> K.H.N.Karthik</p>
       </div>
       <div style="padding-top: 20px;">
-        <a style="padding-right:  45px;" href="https://github.com/Haranarayanakarthik"><img src="./Img/github.svg"></a>
-       <a style="padding-right: 50px; " href="https://www.linkedin.com/in/kommaraju-hara-narayana-karthik-564917258/"><img src="./Img/linkedin.svg"></a> 
-       <a style="padding-right:80px;" href="https://mail.google.com/mail/u/0/?hl=in#inbox"><img src="./Img/gmail-svgrepo-com.svg"></a>
+          <a id="github-link" style="padding-right: 45px;" href="https://github.com/Haranarayanakarthik"><img src="./Img/github.svg"></a>
+          <a id="linkedin-link" style="padding-right: 50px;" href="https://www.linkedin.com/in/kommaraju-hara-narayana-karthik-564917258/"><img src="./Img/linkedin.svg"></a>
+          <a id="gmail-link" style="padding-right: 80px;" href="https://mail.google.com/mail/u/0/?hl=in#inbox"><img src="./Img/gmail-svgrepo-com.svg"></a>
       </div>
-    </footer>
+  </footer>
 </body>
 </html>
