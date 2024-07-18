@@ -12,54 +12,8 @@ html
   align-items: center;
   transition: transform 0.3s ease, background-size 0.3s ease;
 }
-
-input[type=text], select, textarea {
-width: 100%;
-padding: 12px;
-border: 1px solid #ccc;
-border-radius: 4px;
-box-sizing: border-box;
-margin-top: 6px;
-margin-bottom: 16px;
-resize: vertical;
-transition: box-shadow 0.3s ease;
-}
-
-input[type=text]:focus, select:focus, textarea:focus {
-box-shadow: 0 0 10px #04AA6D;
-}
-
-input[type=submit] {
-background-color: #04AA6D;
-color: white;
-padding: 12px 20px;
-border: none;
-border-radius: 4px;
-cursor: pointer;
-transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-input[type=submit]:hover {
-background-color: #45a049;
-transform: scale(1.05);
-}
-
-.container {
-border-radius: 5px;
-background-color: #f2f2f2;
-padding: 20px;
-transition: box-shadow 0.3s ease;
-}
-
-.container:hover {
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.container label {
-  font-size: 1.5rem;
-}
-
-section {
+section 
+{
   padding: 2rem;
   text-align: center;
   transition: background-color 0.3s ease, transform 0.3s ease;
@@ -70,7 +24,8 @@ section:hover {
   transform: scale(1.02);
 }
 
-nav {
+nav 
+{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -81,7 +36,8 @@ nav {
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-nav p {
+nav p 
+{
   font-size: 1.5rem;
 }
 
@@ -160,7 +116,7 @@ h2
 }
 
 h2:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 
 .main p {
@@ -326,33 +282,108 @@ h2:hover {
   transition: transform 0.3s ease;
 }
 
-#achievements h2:hover {
+#achievements h2:hover 
+{
   transform: scale(1.05);
 }
 
-#achievements ul {
+#achievements ul 
+{
   list-style: none;
   padding: 0;
 }
 
-#achievements li {
+#achievements li 
+{
   margin: 1rem 0;
   font-size: larger;
   font-family: 'Courier New', Courier, monospace;
   transition: transform 0.3s ease;
 }
 
-#achievements li:hover {
+#achievements li:hover 
+{
   transform: scale(1.05);
 }
-
-#contact {
-  background-color: aqua;
-  padding-bottom: 30px;
-  transition: transform 0.3s ease;
+ #contact h2
+{
+  font-size: 40px;
+  color:black;
+  text-shadow: #fffae4;
+  text-align: center;
+  margin-bottom: 30px;
 }
+#contact form
+{
+  width: 700px;
+  text-align: center;
+}
+.for
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 
-footer {
+}
+.form input-box
+{
+  display: flex;
+  justify-content: space-between;
+}
+.field .item
+{
+  width: 100%;
+  padding: 18px;
+  background: rgba(42, 42, 42, 0.475);
+  border: 2px solid #020202;
+  font-size: 16px;
+  color: #fffae4;
+  outline: none;
+  border-radius: 6px;
+  margin:12px 0;
+}
+.field .item:hover
+{
+  width: 100%;
+  padding: 18px;
+  background: rgba(42, 42, 42, 0.475);
+  border: 2px solid #020202;
+  font-size: 16px;
+  color: #fbfbfb;
+  outline: none;
+  border-radius: 6px;
+  margin:12px 0;
+}
+.field .item::placeholder
+{
+  color:#fffae4;
+}
+form .textarea-field .item
+{
+  resize:none;
+}
+form button
+{
+  padding: 12px 32px;
+  background: #02020273;
+  border:none;
+  outline: none;
+  border-radius: 6px;
+  box-shadow:0 0 10px #fffae4;
+  font-size:16px;
+  color:azure;
+  letter-spacing:1px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 20px;
+}
+form button:hover
+{
+  background: #02020271;
+  box-shadow: #fffae4;
+}
+footer 
+{
   text-align: center;
   background-color: lawngreen;
   color: black;
@@ -362,14 +393,13 @@ footer {
   justify-content: space-around;
   transition: transform 0.3s ease;
 }
-
 footer img 
 {
   width: 30px;
   height: 30px;
   transition: transform 0.3s ease;
 }
-
-footer img:hover {
+footer img:hover 
+{
   transform: scale(1.2);
 }
