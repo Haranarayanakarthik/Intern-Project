@@ -88,19 +88,26 @@ body
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-#k img {
-  width: 25rem;
-  height: 25rem;
-  padding-right: 50px;
-  padding-top: 80px;
-  padding-left: 80px;
+#k img 
+{
+  width: 23rem;
+  height: 23rem;
+  padding-right: 80px;
+  padding-top: 120px;
+  margin-left: 50px;
   transition: transform 0.3s ease;
+
 }
 
 #k img:hover {
   transform: scale(1.1);
 }
+#k p
+{
+  padding-left: 70px;
+  font-size: 1rem;
 
+}
 #k {
   display: flex;
   flex-direction: row;
@@ -152,9 +159,15 @@ h2:hover {
   transform: scale(1.1);
 }
 
-#u1 {
+#u1 
+{
   display: flex;
   flex-direction: row;
+}
+.u p
+{
+  padding-right: 60px;
+  margin-right: 50px;
 }
 
 #u2 
@@ -169,18 +182,23 @@ h2:hover {
 {
   transform: scale(1.1);
 }
-.ko1 {
+.ko1 
+{
   display: flex;
   flex-direction: row;
 }
 
-.ko1 p {
+.ko1 p 
+{
   font-size: 1.8rem;
+  padding-right: 70px;
+  margin-right: 50px;
 }
 
-.ko1 img {
-  padding-right: 50px;
-  margin-left: 10px;
+.ko1 img 
+{
+  padding-right: 80px;
+  margin-left: 30px;
   width: 30rem;
   height: 15rem;
   transition: transform 0.3s ease;
@@ -197,34 +215,49 @@ h2:hover {
   padding-top: 30px;
 }
 
-.ko2 img {
-  padding-left: 50px;
-  margin-right: 10px;
+.ko2 img 
+{
+  padding-left: 30px;
+  margin-right: 60px;
   width: 30rem;
   height: 15rem;
   transition: transform 0.3s ease;
 }
+.ko2 p
+{
+  padding-left: 50px;
+}
 
-.ko2 img:hover {
+.ko2 img:hover 
+{
   transform: scale(1.1);
 }
 
-.ko3 {
+.ko3 
+{
   display: flex;
   flex-direction: row;
 }
 
-.ko3 img {
+.ko3 img 
+{
   padding-right: 50px;
   margin-left: 10px;
   width: 30rem;
   height: 15rem;
   padding-top: 30px;
+  padding-left: 50px;
   transition: transform 0.3s ease;
 }
 
 .ko3 img:hover {
   transform: scale(1.1);
+}
+.ko3 p
+{
+  padding-right: 50px;
+  padding-top: 15px;
+  margin-right: 50px;
 }
 
 #projects {
